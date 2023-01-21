@@ -1,0 +1,7 @@
+create table faculty3 (f_id number (10),f_name varchar (10),f_emailid varchar (50),f_phoneno number (11),f_age number (5),f_collagname varchar (19));
+insert into faculty3 values (1,'ajay','ajaypatel@gmail.com',1255451465,17,'socca');
+insert into faculty3 values (2,'amit','amitpatil12@gmail.com',1078551465,19,'socca');
+insert into faculty3 values (3,'bhavesh','bhavesh134@gmail.com',1255465784,19,'asoit');
+insert into faculty3 values (4,'parth','p12patel@gmail.com',1214551465,18,'socca');
+insert into faculty3 values (5,'amin','aminpatel@gmail.com',1255457465,20,'socca');
+select* from faculty3;
