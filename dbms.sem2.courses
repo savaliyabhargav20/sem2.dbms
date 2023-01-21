@@ -1,0 +1,7 @@
+create table cource4 (c_collagename varchar (10),c_typeofcources varchar (10),c_duration varchar (34));
+insert into cource4 values ('socca','bca','3 year');
+insert into cource4 values ('socet','bsc','3 year');
+insert into cource4 values ('asoit','diploma','3 year');
+insert into cource4 values ('socca','mca','2 year');
+insert into cource4 values ('socca','imscit','4 year');
+select* from cource4;
