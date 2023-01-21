@@ -1,0 +1,7 @@
+create table exam4 (s_id number (10),s_examtype varchar (10),s_examformstatus varchar (5),s_marks number (19),s_collagename varchar (10));
+insert into exam4 values (1,'intermid','yes',23,'socca');
+insert into exam4 values (2,'mid','yes',35,'socet');
+insert into exam4 values (3,'mid','no',null,'asoit');
+insert into exam4 values (4,'end','yes',45,'socca');
+insert into exam4 values (5,'end','no',null,'socca');
+select* from exam4;
